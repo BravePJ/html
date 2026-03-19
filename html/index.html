@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCST Website</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/434206019_951704663627954_202197592447994371_n-removebg-preview.png">
+</head>
+<style>
+    body{
+        margin: 0;
+    }
+    *{
+        font-family: 'Segoe UI';
+    }
+    .parent-navbar{
+        background-color: #2c3e50;
+        color: white;
+        display: flex;
+        padding: 10px 15px;
+        justify-content: space-between ;
+    }
+    .children-navbar{
+
+    }
+    .nav-link{
+        color: white;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .parent-header{
+
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("images/building\ \(1\).png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .children-header{
+        align-items: center;
+        justify-content: center;
+    }
+    .grand-children-header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button-header{
+        background-color: lightblue;
+        border: 1px solid lightblue;
+        padding: 10px 15px;
+        border-radius: 8px;
+        align-items: center;
+    }
+    .children-section{
+        border: 1px solid gray;
+        border-radius: 20px;
+        padding: 10px 15px;
+        text-align: center;
+    }
+    .parent-section{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 50px;
+    }
+
+</style>
+<body>
+    <nav class="parent-navbar">
+        <div class="children-navbar"><img style="height: 40px; width: 40px;" src="images/434206019_951704663627954_202197592447994371_n-removebg-preview.png" alt=""></div>
+        <div class="children-navbar">
+            <a href="index.html" class="nav-link">home</a>
+            <a href="" class="nav-link">lesson</a>
+            <a href="" class="nav-link">about</a>
+        </div>
+    </nav>
+    <header class="parent-header">
+        <div class="children-header">
+         <h1 style="text-align: center;">Welcome to CCST</h1>
+         <p style="text-align: center;">learn HTML and CSS through Handds-on practice</p>
+         <div class="grand-children-header">
+            <button class="button-header"><a style="text-decoration: none; color: black;"  href="Enrollment.html" >Get Started</a></button>
+         </div>
+        </div>
+    </header>
+    <section class="parent-section">
+        <div class="children-section">
+            <h3>Structure</h3>
+            <p>HTML provides the skeleton of website</p>
+        </div>
+        <div class="children-section">
+            <h3>Style</h3>
+            <p>CSS brings the design of life</p>
+        </div>
+        <div class="children-section">
+            <h3>Layout</h3>
+            <p>Flexbox make it easy align elements</p>
+        </div>
+    </section>
+
+    <footer style="background-color: #2c3e50;">
+        <p style="text-align: center; color: white;">CCST WEBSITE</p>
+    </footer>
+</body>
+</html>
